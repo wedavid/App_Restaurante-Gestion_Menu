@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fonregistro"
+    android:layout_gravity="center"
+    tools:context=".Registro_Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_nomb"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="Nombre Completo"
+            android:textColorHint="#A19E9E"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ic_person"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edit"
+            android:padding="20dp"
+            />
+        <EditText
+            android:id="@+id/et_cedula"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="Cédula"
+            android:textColorHint="#A19E9E"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ic_identifi"
+            android:drawablePadding="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edit"
+            android:padding="20dp"
+            />
+
+        <EditText
+            android:id="@+id/et_direccion"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="Dirección de Residencia"
+            android:textColorHint="#A19E9E"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ic_home"
+            android:drawablePadding="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edit"
+            android:padding="20dp"
+            />
+
+        <EditText
+            android:id="@+id/et_tel"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="Teléfono"
+            android:textColorHint="#A19E9E"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ic_phone"
+            android:drawablePadding="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edit"
+            android:padding="20dp"
+            />
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="Correo Electrónico"
+            android:textColorHint="#A19E9E"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ic_email"
+            android:drawablePadding="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edit"
+            android:padding="20dp"
+            />
+
+        <EditText
+            android:id="@+id/et_pass"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Crear una Contraseña"
+            android:textColorHint="#A19E9E"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ic_pass"
+            android:drawablePadding="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edit"
+            android:padding="20dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/et_save"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="45dp"
+                android:background="@drawable/edit"
+                android:drawableLeft="@drawable/ic_save"
+                android:text="Guardar"
+                android:textColor="#fff"
+                app:backgroundTint="#4904C5" />
+
+            <Button
+                android:id="@+id/et_butini"
+                android:layout_width="131dp"
+                android:layout_height="56dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginLeft="15dp"
+                android:text="Iniciar sesión"
+                android:textColor="#FF5722"
+                app:backgroundTint="#FFFFFF" />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewNombrePlato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#3E3F40"/>
+
+    <TextView
+        android:id="@+id/textViewDetallePlato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewNombrePlato"
+        android:layout_marginTop="8dp"
+        android:textSize="19sp"
+        android:textColor="#808080"
+        android:layout_alignParentEnd="true"/>
+
+    <!-- TextView para el precio del plato -->
+    <TextView
+        android:id="@+id/textViewPrecioPlato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewDetallePlato"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:textColor="#FA7777"
+        android:layout_alignParentEnd="true"/>
+
+</RelativeLayout>

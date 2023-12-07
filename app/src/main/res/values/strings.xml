@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Menú</string>
+    <string name="init">Inicio</string>
+    <string name="reser">Reserva</string>
+    <string name="consul">Consulta Reserva</string>
+    <string name="admin">Administrador</string>
+    <string name="cerrar_sesion">Cerrar Sesión</string>
+</resources>
